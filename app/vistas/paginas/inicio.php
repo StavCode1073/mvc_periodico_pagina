@@ -59,13 +59,12 @@
 	<section class="fondo-baner-contacto">
 			<div class="container">
 					<div class="row">
-							<div class="col-12 col-md-8 py-5 text-center"> 
-								<h5 class="text-white">
-									SI TIENE DUDAD PARA PUBLICAR SU CONTENIDO VISTA LA SECCION DE PREGUNTAS FECUENTES
+							<div class="col-12 col-md-12 py-3 d-flex flex-column align-items-center text-white"> 
+							   <span style="font-size: 42px ;"><i class="fa-brands fa-google-play"></i></span> 
+								<h5 class="text-white mt-10">
+									NUESTRO APLICACIÓN YA DISPONIBLE
 								</h5>
-							</div>
-							<div class="col-12 col-md-4 py-5 text-center">
-									<a type="button" class="btn btn-warning mb-3">PREGUNTAS FRECUENTES</a>
+								<a download href="https://poax.b32.mx/app/assets/imagenes/app-release.apk" type="button" class="btn btn-warning mb-3">Descargar la última versión  </a>
 							</div>
 					</div>
 			</div>

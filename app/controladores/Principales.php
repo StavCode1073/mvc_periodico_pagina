@@ -79,7 +79,7 @@ class Principales extends Controlador{
                   $ruta = "img" . DS . "imgall" . DS . $nombre2;
                   //$ruta ="public/img/nuevos/" . $nombre;
                   move_uploaded_file($_FILES['imagen']['tmp_name'], $ruta);
-    
+                  
                   $titulo = trim($_POST['title_card']);
                   $content = trim($_POST['text_content']);
                   $link = trim($_POST['link']);
