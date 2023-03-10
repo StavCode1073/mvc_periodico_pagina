@@ -1,0 +1,10 @@
+dorado - #b18c5a
+rojo - #a90144
+
+azul - #2c9c9c
+morado - #8b2884
+rosado - #c75976
+rojo - #a90144
+amarillo - #fddf4e
+verde - #7bac44
+naranja - #d78c38

@@ -1,5 +1,5 @@
 	<!-- Footer -->
-    <footer class="text-center text-lg-start bg-dark text-muted mt-2">
+    <footer class="principal_footer text-center text-lg-start  text-white mt-2">
 
 <!-- Section: Links  -->
 <section class="pt-5">
@@ -7,13 +7,13 @@
     <!-- Grid row -->
     <div class="row mt-3">
       <!-- Grid column -->
-      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 d-flex flex-column justify-content-center">
+      <div class="col-12 col-md-3 col-lg-4 col-xl-4 mx-auto mb-4 d-flex flex-column justify-content-center">
         <!-- Content -->
         <h6 class=" fw-bold mb-2 h5 text-center">
-          <!--<i class="fas fa-gem me-3 text-secondary"></i>-->Gobierno del Estado de Oaxaca
+          <!-- <i class="fas fa-gem me-3 text-secondary"></i>Gobierno del Estado de Oaxaca -->
         </h6>
         <p>
-            <img src="<?php echo RUTA_URL;?>/img/oax-escudo.png" class="rounded mx-auto d-block w-imagen" alt="...">
+            <img src="<?php echo RUTA_URL;?>/img/logo-oaxaca.png" class="rounded mx-auto d-block w-imagen-logo-pie" alt="...">
         </p>
         <!--<p>
           Here you can use rows and columns to organize your footer content. Lorem ipsum
@@ -23,30 +23,30 @@
       <!-- Grid column -->
 
       <!-- Grid column -->
-      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+      <div class="col-12 col-md-3 col-lg-4 col-xl-4 mx-auto mb-4">
         <!-- Links -->
         <h6 class="text-uppercase fw-bold mb-4">
           Acceso rapido
         </h6>
         <?php foreach ($datos['accesos'] as $acceso) : ?>
-            <p><a href="<?php echo $acceso->link; ?>" > <i class="fa-solid fa-link text-secondary me-3"></i> <?php echo $acceso->name; ?></a></p>
+            <p><a href="<?php echo $acceso->link; ?>" > <i class="fa-solid fa-link text-white me-3"></i> <?php echo $acceso->name; ?></a></p>
         <?php endforeach; ?>    
       </div>
       <!-- Grid column -->
 
       <!-- Grid column -->
-      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+      <div class="col-12 col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
         <!-- Links -->
         <h6 class="text-uppercase fw-bold mb-4">Contactos</h6>
         <?php foreach ($datos['contact'] as $contacto) : ?>
           <?php if($contacto->tipo == "mail"){ ?>
             <p>
-              <i class="fas fa-envelope me-3 text-secondary"></i>
+              <i class="fas fa-envelope me-3 text-white"></i>
               <?php echo $contacto->info; ?>
             </p>
           <?php } ?>
           <?php if($contacto->tipo == "tel"){ ?>
-            <p><i class="fas fa-phone me-3 text-secondary"></i><?php echo $contacto->info; ?></p>
+            <p><i class="fas fa-phone me-3 text-white"></i><?php echo $contacto->info; ?></p>
           <?php } ?>
         <?php
           
@@ -62,7 +62,7 @@
 
 <!-- Copyright -->
 <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-  © Portal de Gobierno del Estado de Oaxaca 2022
+  © Portal de Gobierno del Estado de Oaxaca 2023
 </div>
 <!-- Copyright -->
 </footer>

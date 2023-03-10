@@ -48,7 +48,7 @@
       return $resultados;
     }
     public function obtenerAccesFast(){
-      $this->db->query('SELECT * FROM info_pie_fast_link  ORDER BY id DESC');
+      $this->db->query('SELECT * FROM info_pie_fast_link  ORDER BY id ASC');
   
       $resultados = $this->db->registros();
       return $resultados;

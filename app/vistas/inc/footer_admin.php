@@ -6,7 +6,7 @@
             <div class="col-md-6 order-last order-md-first">
               <div class="copyright text-center text-md-start">
                 <p class="text-sm">
-                © Portal de Gobierno del Estado de Oaxaca 2022 
+                © Portal de Gobierno del Estado de Oaxaca 2023
                   <a
                     href="https://plainadmin.com"
                     rel="nofollow"

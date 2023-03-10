@@ -32,6 +32,11 @@ class Paginas extends Controlador{
 
     public function formSesion()
     {
+
+      $datos = [
+        'contact' => $this->contactPie,
+        'accesos' => $this->saccesosRapido,
+      ];
       //verificamos si se enviaron los datos por POST
       if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $datos = [
@@ -57,7 +62,7 @@ class Paginas extends Controlador{
       }
 
       //enviar y cargar en la vista inicio los datos
-      $this->vista('paginas/formsesion');
+      $this->vista('paginas/formsesion', $datos);
     }
 
 

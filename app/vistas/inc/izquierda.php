@@ -1,7 +1,7 @@
 <aside class="sidebar-nav-wrapper">
       <div class="navbar-logo">
         <a href="<?php echo RUTA_URL; ?>/Principales/dashboard">
-          <img src="<?php echo RUTA_URL;?>/img/logos_izq.gif" alt="logo" width="200" height="50" />
+          <img src="<?php echo RUTA_URL;?>/img/logo.png" alt="logo" class="img-fluid" />
         </a>
       </div>
       <nav class="sidebar-nav">

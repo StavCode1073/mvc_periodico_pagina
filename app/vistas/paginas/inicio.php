@@ -18,7 +18,7 @@
 		  			</div>
 		  		</div>
 		  		<div class="col-6">
-		  			<img src="<?php echo RUTA_URL;?>/img/oax-escudo.png" class="rounded mx-auto d-block w-imagen-logo" alt="...">
+		  			<img src="<?php echo RUTA_URL;?>/img/escudo-oaxaca.png" class="rounded mx-auto d-block w-imagen-logo" alt="...">
 		  			<p class="text-dark"><?php echo $datos['header']->texto_banner2 ?></p>
 		  		</div>
 		  	</div>
@@ -56,13 +56,13 @@
 				{content}
 			</div>
 	</section>-->
-	<section class="fondo-baner-contacto">
+	<section class="banner_app">
 			<div class="container">
 					<div class="row">
 							<div class="col-12 col-md-12 py-3 d-flex flex-column align-items-center text-white"> 
 							   <span style="font-size: 42px ;"><i class="fa-brands fa-google-play"></i></span> 
 								<h5 class="text-white mt-10">
-									NUESTRO APLICACIÓN YA DISPONIBLE
+									NUESTRA APLICACIÓN YA DISPONIBLE
 								</h5>
 								<a download href="https://poax.b32.mx/app/assets/imagenes/app-release.apk" type="button" class="btn btn-warning mb-3">Descargar la última versión  </a>
 							</div>
@@ -70,11 +70,11 @@
 			</div>
 	</section>
 	<section class="">
-		<footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.2);">
+		<footer class="text-center text-white bg-white">
 		  <!-- Grid container -->
 		  <div class="container py-3">
 		    <!-- Section: Social media -->
-		    <section class="mb-4">
+		    <section class="mb-2">
 		      <!-- Facebook -->
 		      <a
 		        class="btn btn-link btn-floating btn-lg text-dark m-1 text-iconos"
